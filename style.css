@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav a {
+    padding: 2rem;
+}
+
+nav a:hover {
+    border-top: 3px solid #0065fc;
+}
+
+#logo {
+    border: 1px solid blue;
+    margin-right: auto;
+    padding: 0em 2em;
+
+}
+
+#signuptop {
+    font-weight: bold;
+    color: #0065fc;
+}
+
+#subnav {
+    border: 1px solid rgb(0, 255, 64);
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    #subnav {
+        order: 1;
+        flex-basis: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/*
+header {
+    border: 1px solid red;
+    width: auto;
+    max-height: 120px;
+}
+
+header img {
+    width: 120px;
+    border: 2px solid blue;
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 65px;
+    min-height: 60px;
+}
+
+#linkbutton {
+    display: flex;
+    justify-content: end;
+    margin: -75px 0px 50px 450px;
+    width: 100px;
+    height: 50%;
+}
+
+#hostingbutton {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    border: 1px solid blue;
+}
+
+#activitiesbutton {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    border: 1px solid blue;
+}
+
+#signupbutton {
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+    border: 1px solid blue;
+}
+
+/****************** HOVER ***************
+
+#hostingbutton:hover {
+    border-top: 4px solid rgb(0, 110, 255);
+}
+
+#activitiesbutton:hover {
+    border-top: 4px solid rgb(0, 110, 255);
+}
+
+#signupbutton:hover {
+    border-top: 4px solid rgb(0, 110, 255);
+}
+
+
+h2 {
+    font-weight: 400;
+    font-size: .9em;
+}
+/**************** MediaQueries **********/
+/*
+@media (max-width: 630px) {
+    header {
+        padding-bottom: 5rem;
+    }
+    #linkbutton {
+        width: 600px;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+    }
+    
+    header img {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        margin-right: 0px;
+        padding: 0px;
+        width: 120px;
+    }
+
+    #activitesbutton {
+        padding: 5px;
+    }
+}
