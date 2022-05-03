@@ -15,6 +15,8 @@ nav {
     align-items: center;
     justify-content: flex-end;
     flex-wrap: wrap;
+    border: 1px solid #ff000000;
+    margin-top: -0.8rem;
 }
 
 nav a {
@@ -27,7 +29,7 @@ nav a:hover {
 }
 
 #logo {
-    border: 1px solid blue;
+    border: 1px solid rgba(0, 0, 255, 0);
     margin-right: auto;
     padding: 0em 2em;
 
@@ -40,6 +42,7 @@ nav a:hover {
 
 #subnav {
     display: flex;
+    border: 3px solid #fc000000;
 }
 
 #subnav a:hover {
@@ -47,6 +50,9 @@ nav a:hover {
 }
 
 @media (max-width: 800px) {
+    nav {
+        margin-top: -.55rem;
+    }
     #subnav {
         order: 1;
         flex-basis: 100%;
