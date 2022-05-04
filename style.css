@@ -93,7 +93,7 @@ input {
     padding-right: 2rem;
 }
 
-button {
+.searchform button {
     width: 115px;
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -103,6 +103,9 @@ button {
     border: 0px solid transparent;
     cursor: pointer;
     transition: transform 50ms;
+}
+.fa-solid.fa-magnifying-glass {
+    display: none;
 }
 
 .searchform button:hover {
@@ -114,6 +117,22 @@ button {
     font-weight: bold;
     font-size: .9rem;
 
+}
+
+@media (max-width: 800px) {
+
+    #searchtxt {
+        display: none;
+    }
+    .searchform button {
+        min-width: 50px;
+        max-width: 50px;
+    }
+    .fa-solid.fa-magnifying-glass {
+        display: inline;
+        background: none;
+        margin-left: -5px;
+    }
 }
 
 
