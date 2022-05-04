@@ -81,14 +81,40 @@ nav a:hover {
     display: flex;
 }
 
-i {
+.searchform i {
     padding: 1rem;
     background-color: rgb(235, 235, 235);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
+input {
+    border: 1px solid rgb(235, 235, 235);
+    padding-right: 2rem;
+}
 
+button {
+    width: 115px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: .9rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    background-color: #0065fc;
+    border: 0px solid transparent;
+    cursor: pointer;
+    transition: transform 50ms;
+}
 
+.searchform button:hover {
+    transform: scale(1.03);
+}
+.searchform input::placeholder {
+    color: rgb(122, 122, 122);
+    text-align: center;
+    font-weight: bold;
+    font-size: .9rem;
 
+}
 
 
 
