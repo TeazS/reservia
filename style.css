@@ -138,6 +138,7 @@ input {
 /********* Filter ************/
 #filters {
     display: flex;
+    margin-top: 1rem;
 }
 
 #btnfilters {
@@ -206,7 +207,7 @@ input {
     text-align: center;
     background-color: rgb(222,235,255);
     padding-top: 1rem;
-    margin-top: -1rem;
+    margin-top: -.93rem;
     margin-right: .5rem;
     margin-left: -1.2rem;
     border-radius: 100%;
@@ -220,7 +221,7 @@ input {
     text-align: center;
     background-color: rgb(222,235,255);
     padding-top: 1rem;
-    margin-top: -1rem;
+    margin-top: -.93rem;
     margin-right: .5rem;
     margin-left: -1.2rem;
     border-radius: 100%;
@@ -234,7 +235,7 @@ input {
     text-align: center;
     background-color: rgb(222,235,255);
     padding-top: 1rem;
-    margin-top: -1rem;
+    margin-top: -.93rem;
     margin-right: .5rem;
     margin-left: -1.2rem;
     border-radius: 100%;
@@ -248,7 +249,7 @@ input {
     text-align: center;
     background-color: rgb(222,235,255);
     padding-top: 1rem;
-    margin-top: -1rem;
+    margin-top: -.93rem;
     margin-right: .5rem;
     margin-left: -1.2rem;
     border-radius: 100%;
