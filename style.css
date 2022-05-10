@@ -38,7 +38,7 @@ nav a:hover {
     border: 1px solid rgba(0, 0, 255, 0);
     margin-right: auto;
     padding: 0em 2em;
-
+    width: 230px;
 }
 
 #signuptop {
@@ -316,12 +316,17 @@ input {
 }
 
 #hostingat {
-    border: 2px solid rgba(255, 0, 0, 0.486);
+    border: 2px solid rgba(255, 0, 0, 0.26);
     border-radius: 1rem;
     padding: .8rem;
     flex-basis: 66%;
     min-width: 500px;
     background-color: #F2F2F2;
+}
+
+#hostingat h3 {
+    font-size: 1.5rem;
+    margin: .75rem 0rem 1.5rem 0rem;
 }
 
 #hebergement {
@@ -332,7 +337,6 @@ input {
 
 #hebergement div {
     display: flex;
-    border: 1px solid blue;
 }
 
 #popular {
@@ -342,6 +346,7 @@ input {
     flex-basis: 33%;
     min-width: 300px;
     margin-left: 32px;
+    background-color: #F2F2F2;
 }
 
 .poplink {
@@ -356,7 +361,7 @@ input {
     width: 270px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
     padding: .25rem;
-    margin: 0rem 1rem 2rem 0rem;
+    margin: 0rem .5rem 2rem .5rem;
 }
 
 .hostlink h4 {
@@ -391,6 +396,77 @@ input {
 
 .fa-solid.fa-star.grey {
     color: rgb(196,195,195);
+}
+
+
+/* displaymore */
+
+#displaymore a {
+    border-radius: 1rem;
+    border: 2px solid #F2F2F2;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 1rem;
+    padding: 10px 190px 10px 150px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+
+/* POPULAR LINK */
+
+#populartitle h3 {
+    font-size: 1.5rem;
+    margin: .75rem 0rem 1.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.poplink {
+    margin: 0;
+}
+
+.poplink a {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    padding: .25rem;
+    margin: 0rem 1rem 1rem 0rem;
+}
+
+.poplink h4 {
+    margin: .25rem .25rem 0rem .5rem;
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+}
+
+.poplink p {
+    margin: .25rem .25rem 0rem .5rem;
+    font-size: 1rem;
+    color: #000;
+}
+
+.poplink img {
+    border-radius: 1rem 0rem 0rem 1rem;
+    width: 30%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.poplink span {
+    margin: .5rem 0rem 0rem .5rem;
+    padding: 0px;
+}
+
+.poplink a {
+    text-decoration: none;
 }
 
 @media (max-width: 800px) {
